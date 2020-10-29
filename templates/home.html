@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<!-- <link rel="stylesheet" type="text/css" href="../static/css/styles.css"> -->
+	
+</head>
+<body>
+
+	<header>
+		<div class="container">
+		<div id="brandname">
+			
+		</div>
+		<h2>Resume Model</h2>
+		
+	</div>
+    </header>
+ 
+	<div class="ml-container">
+
+		<form action="{{ url_for('result')}}" method="POST">
+            <div class="content">
+                <label for="operation"> </label>
+        <input type="file" name="file" id="pdfupload" accept=".pdf, .txt, .docx">
+        <input type="submit" class="btn-info" value="result">
+                
+		<br/>
+    
+		
+		
+	</form>
+		
+	</div>
+
+	
+	
+
+</body>
+</html>
