@@ -1,0 +1,5 @@
+1. Anaconda prompt
+2. cd 'file location'
+3. set FLASK_APP = Grammar_correction.py
+4. set FLASK_DEBUG = 1
+5. flask run
